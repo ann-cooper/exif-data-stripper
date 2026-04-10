@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "exif_util"
+dynamic = ["version"]
+description = "A command-line exif stripper and copyright tool for photos."
+classifiers = ["Programming Language :: Python :: 3"]
+
+authors = [
+    { name = "Ann Cooper", email = "ann@anncooperwrites.com" }
+]
+
+[project.scripts]
+exif-cli = "exif_util.cli:app"
+
+[options]
+zip_safe = false
+include_package_data = true
+packages = [{ include = "project" }]
+python_requires = ">=3.10"
+dynamic = ["install_requires"]
+
+[options.package_data]
+"*" = ["*.txt", "*.md", "*.in"]
