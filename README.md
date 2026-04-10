@@ -15,7 +15,7 @@ My repos are all human coded. There is no AI-generated code anywhere in this pro
 
 ### In a virtual environment
 - Install the package in a virtual environment
-    - For help setting up a virtual environment, see [Virtual environment](#virtual-environment)
+    - For help setting up a virtual environment, see [Virtual environment](#local-python-environment)
 - Activate the virtual environment 
     - Make sure that the package has been installed in the [Virtual environment](#virtual-environment) 
 - Run `exif-cli` in a terminal
