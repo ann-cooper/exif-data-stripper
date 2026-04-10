@@ -73,17 +73,3 @@ def cleanup():
     ready_path.rmdir()
     Path("tests/tmpdata").rmdir()
 
-
-# finding gps data
-# from PIL.ExifTags import GPSTAGS
-# D = os.path.expanduser("~/Desktop")
-# T = Path(D + "/" + "strip")
-# check = T / "IMG_7974.jpeg"
-# with Image.open(check) as c:
-#     ed = c.getexif()
-# inf = ed.get_ifd(34853)
-# {GPSTAGS.get(k, k): v for k,v in inf.items()}
-
-# to load data from existing image
-# img = Image.open("path.jpg")
-# data = piexif.load(img.info.get('exif'))

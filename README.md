@@ -21,10 +21,6 @@ My repos are all human coded. There is no AI-generated code anywhere in this pro
 - Run `exif-cli` in a terminal
     - To display the help text for the cli options, run `exif-cli --help`
 
-### In a Docker container
-- Make sure Docker is running if you're doing this locally!
-- In a terminal, cd into the project directory and run `docker build -t exiftool.`
-- Then run `docker run --rm -it exiftool`
 ## Testing
 
 ## Local Python environment
